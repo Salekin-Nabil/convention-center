@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convention Center</title>
+
+    <!-- Google Fonts (poppins $ roboto)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/04c892ea19.js" crossorigin="anonymous"></script>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-white" style="font-family: 'Poppins', sans-serif;">
+    <!-- header start -->
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid container-lg">
+              <a class="navbar-brand fw-bold text-wrap" href="#">SD Convention Center</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active products" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link products" href="#package">Packages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link products" href="#faq">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link products" href="#contact">Contact</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+          <!-- navbar ends -->
+
+        <!-- heading carousel -->
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/banner-1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h3 class="fw-bold">Welcome To San Diego Convention Center</h3>
+                      <p>The San Diego Convention Center is the primary convention center in San Diego, California. It is located in the Marina district of downtown San Diego near the Gaslamp Quarter, at 111 West Harbor Drive.</p>
+                      <a target="_blank" style="text-decoration: none;" href="https://www.visitsandiego.com/"><button style="background-color: #F496D1;" class="btn fw-bloder px-5 text-white btn-light border-0">Book Now</button></a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/banner-2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h3 class="fw-bold">The perfect venue for your next event</h3>
+                      <p>Beaches, museums, attractions, parks, recreation, nightlife and much more are located just steps from the Convention Center.</p>
+                      <a target="_blank" style="text-decoration: none;" href="https://www.visitsandiego.com/"><button style="background-color: #F496D1;" class="btn fw-bloder px-5 text-white btn-light border-0">Book Now</button></a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/banner-3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h3 class="fw-bold">Clean, spacious and full of sunshine.</h3>
+                      <p>With high vaccination rates and industry-leading protocols, we are ready to host you here on the San Diego Bay.</p>
+                      <a target="_blank" style="text-decoration: none;" href="https://www.visitsandiego.com/"><button style="background-color: #F496D1;" class="btn fw-bloder px-5 text-white btn-light border-0">Book Now</button></a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/banner-4.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption  d-md-block">
+                      <h3 class="fw-bold">Eat & Drink</h3>
+                      <p>From world-class dining to fresh local cuisine, like the famous fish taco, and a thriving craft beer scene, San Diego is a dynamic foodie city.</p>
+                      <a target="_blank" style="text-decoration: none;" href="https://www.visitsandiego.com/"><button style="background-color: #F496D1;" class="btn fw-bloder px-5 text-white btn-light border-0">Book Now</button></a>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <!-- heading carousel ends -->
+    </header>
+    <!-- header end -->
+    
+    <!-- main start -->
+    <main>
+        <!-- Extra Part 1 -->
+        <section class="container-lg py-md-5 my-5">
+            <div class="card text-center shadow-lg">
+                <div class="card-header fw-bold">
+                  Upcoming Events
+                </div>
+                <div class="card-body bg-secondary">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/extra-1.jpg" class="d-block mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/extra-2.jpg" class="d-block mx-auto w-50" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/extra-3.jpg" class="d-block mx-auto w-50" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="card-footer text-muted">
+                  <a target="_blank" style="text-decoration: none; color: black;" class="text-muted" href="https://www.visitsandiego.com/harbor-drive-closure-2021">Click here to Explore More</a>
+                </div>
+              </div>
+        </section>
+        <!-- Extra Part 1 Ends -->
+
+        <!-- Toast -->
+        <div class="toast show position-absolute end-0 border-end-0 border-top-0 border-bottom-0 border-5 border-primary" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header d-flex justify-content-center align-items-center">
+                <img class="ms-1 me-3" src="icons/Vector.svg" alt="">
+                <strong class="me-auto">20% off on next booking</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+        <!-- Toast Ends -->
+
+        <!-- Event Plans -->
+        <section id="package" class="container-lg py-md-5 my-5 px-0">
+            <h2 class="text-center fw-bold mb-md-5 mb-2">Our Package</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gx-4 gy-5 m-0">
+                <div class="col">
+                  <div class="card h-100 round-1 border-0 shadow py-4 pe-0 text-wrap ps-2">
+                    <div class="card-body px-0 px-md-4">
+                      <h3 class="card-title fw-bolder roboto mb-3">$300</h3>
+                      <h5 class="fw-bolder roboto mb-4">Business Fair</h5>
+                      <p class="card-text text-muted"><small>For most businesses event like book fair, craft fair.</small></p>
+                      <ul class="text-muted decoration">
+                          <div class="d-flex align-items-center mb-1">
+                            <img class="me-2" src="icons/check-circle.png" alt="">
+                            <li><small>limited space access</small></li>
+                          </div>
+                          <div class="d-flex align-items-center mb-1">
+                            <img class="me-2" src="icons/check-circle.png" alt="">
+                            <li><small>Secuirty facility</small></li>
+                          </div>
+                          <div class="d-flex align-items-center mb-1">
+                            <img class="me-2" src="icons/check-circle.png" alt="">
+                            <li><small>event support</small></li>
+                          </div>
+                          <div class="d-flex align-items-center mb-1">
+                            <img class="me-2" src="icons/check-circle.png" alt="">
+                            <li><small>Decoration design</small></li>
+                          </div>
+                          <div class="d-flex align-items-center mb-1">
+                            <img class="me-2" src="icons/check-circle.png" alt="">
+                            <li><small>Per day bill</small></li>
+                          </div>
+                      </ul>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a target="_blank" href="https://www.visitsandiego.com/meeting-planners/hybrid-events"><button class="btn round border-0 text-white fw-bold px-5 py-2">Choose plan</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 round-1 border-0 shadow py-4 pe-0 text-wrap ps-2">
+                    <div class="card-body px-0 px-md-4">
+                        <h3 class="card-title fw-bolder roboto mb-3">$500</h3>
+                        <h5 class="fw-bolder roboto mb-4">Wedding Basic</h5>
+                        <p class="card-text text-muted"><small>For weddings with basic plan and limited item</small></p>
+                        <ul class="text-muted decoration">
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle.png" alt="">
+                              <li><small>Full space access</small></li>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle.png" alt="">
+                              <li><small>Food arrangement</small></li>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle.png" alt="">
+                              <li><small>mangement support</small></li>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle.png" alt="">
+                              <li><small>Decoration design</small></li>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle.png" alt="">
+                              <li><small>Billed as shift</small></li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a target="_blank" href="https://www.visitsandiego.com/meeting-planners/hybrid-events"><button class="btn round border-0 text-white fw-bold px-5 py-2">Choose plan</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div style="margin-top: -40px; background-color: #F496D1;" class="position-relative card h-100 round-1 border-0 py-4 pe-0 large-shadow text-wrap ps-2">
+                    <span style="margin-left: 85%;" class="position-absolute top-0 translate-middle badge rounded-pill bg-danger">Hot</span>
+                    <div class="card-body px-0 px-md-4">
+                        <h3 class="card-title fw-bolder roboto text-white mb-3">$800</h3>
+                        <h5 class="fw-bolder roboto text-white mb-4">Wedding Plus</h5>
+                        <p class="card-text text-white"><small>For most weddings with premium plans</small></p>
+                        <ul class="decoration text-white">
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle-2.png" alt="">
+                              <li><small>Full space access</small></li>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle-2.png" alt="">
+                              <li><small>Dedicated team</small></li>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle-2.png" alt="">
+                              <li><small>premium Decoration</small></li>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle-2.png" alt="">
+                              <li><small>premium Decoration</small></li>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle-2.png" alt="">
+                              <li><small>pay as plan</small></li>
+                            </div>
+                        </ul>
+                        <div class="d-flex justify-content-center pt-3 pb-4 pb-md-2 pb-md-1">
+                          <a target="_blank" href="https://www.visitsandiego.com/meeting-planners/hybrid-events"><button class="btn round-reverse border-0 fw-bold px-5 py-2">Choose plan</button></a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border-0 shadow py-4 pe-0 round-1 text-wrap ps-2">
+                    <div class="card-body px-0 px-md-4">
+                        <h3 class="card-title fw-bolder roboto mb-3">$1200</h3>
+                        <h5 class="fw-bolder roboto mb-4">Corporate Event</h5>
+                        <p class="card-text text-muted"><small>For most corporate business events</small></p>
+                        <ul class="text-muted decoration">
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle.png" alt="">
+                              <li><small>Full space access</small></li>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle.png" alt="">
+                              <li><small>Dedicated team</small></li>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle.png" alt="">
+                              <li><small>Buffet food</small></li>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle.png" alt="">
+                              <li><small>premium Decoration</small></li>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                              <img class="me-2" src="icons/check-circle.png" alt="">
+                              <li><small>pay as plan</small></li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a target="_blank" href="https://www.visitsandiego.com/meeting-planners/hybrid-events"><button class="btn round border-0 text-white fw-bold px-5 py-2">Choose plan</button></a>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+    
+        <!-- Event Plans End -->
+
+        <!-- FAQ -->
+        <section id="faq" class="container-lg py-5 my-md-5 my-5">
+            <h2 class="fw-bold text-center mb-5">Frequently Asked Questions</h2>
+            <div class="row row-cols-md-2 row-cols-1">
+                <div class="col order-2 order-md-1">
+                    <div class="accordion shadow-lg" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                What’s the difference between event design and event planning? 
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body text-muted">
+                                <small>Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</small>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                How early do we need to start planning an event?
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body text-muted">
+                                <small>The time to plan events varies from a few weeks to years. If your event is small, you can probably put it together in a month or two. A good rule of thumb for any major event, from weddings to a company holiday party, is six months.</small>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                What is your refund and cancellation policy?
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body text-muted">
+                              <small>
+                                <ul>
+                                    <li>A timeframe to cancel a service with or without penalty. ...</li>
+                                    <li>A penalty for a late cancellation. ...</li>
+                                    <li>
+                                      Contact information for cancellations. ...</li>
+                                    <li>A place to sign off. ...</li>
+                                </ul>
+                              </small>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                How do you keep budgets on track?
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body text-muted">
+                                <small><ol>
+                                    <li>Review any and every expense. From day one note down exactly what you plan to spend or need to spend on your event. ...</li>
+                                    <li>Setting goals and targets. ...</li>
+                                    <li>Discuss your plan of action regularly. ...</li>
+                                </ol></small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col order-1 order-md-2">
+                    <img class="w-100 border-0 shadow-lg rounded-3" src="images/people-1.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- FAQ Ends -->
+
+        <!-- Extra Part 2 -->
+        <section id="contact" style="background-color: #fce0f289;" class="container-md py-5 my-5 w-75">
+            <div class="row row-cols-1 row-cols-md-2 g-5">
+                <div class="text-center col">
+                    <h3 class="fw-bold">Client's Review</h3>
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="mt-5 products" src="images/person 1.png" alt="">
+                            <div class="ratings mt-4">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="mx-5 my-5 text-center text-wrap">We don't have anything but positive things to say about Top Event Planner! We had Salekin as our day-of coordinator, but his communication from the beginning was top notch. He was available for texts, phone calls, and emails whenever we had questions, and he would always respond promptly.</p>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="mt-5 products" src="images/person 2.png" alt="">
+                            <div class="ratings mt-4">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="mx-5 my-5 text-center text-wrap">So thankful for Salekin, he worked with me and my husband on a time constraint. We planned our wedding in 3 months, due to my father who was terminally ill. Our wedding was absolutely beautiful and everything we envisioned our special day to be!</p>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="mt-5 products" src="images/person 3.png" alt="">
+                            <div class="ratings mt-4">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="mx-5 my-5 text-center text-wrap">I highly recommend hiring a wedding coordinator for the day of. You don't want to deal with the craziness. You also don't want a friend or relative helping out as the coordinator because they will not be able to fully enjoy the wedding as a guest.</p>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="col">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label fw-bold">Username</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We want to know our clients better.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label fw-bold">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label fw-bold">Feedback</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">Your feedback is valuable for us.</div>
+                        </div>
+                        <fieldset class="form-group">
+                            <div class="row">
+                              <legend class="col-form-label col-sm-2 pt-0 fw-bold">Membership</legend>
+                              <div class="col-sm-10 ms-3">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                  <label class="form-check-label" for="gridRadios1">
+                                    Platinum
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                  <label class="form-check-label" for="gridRadios2">
+                                    Gold
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                                  <label class="form-check-label" for="gridRadios3">
+                                    General
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                          </fieldset>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <a target="_blank" href="https://www.visitsandiego.com/"><button style="background-color: #F496D1;" type="submit" class="btn text-white">Submit</button></a>
+                      </form>
+                </div>
+            </div>
+        </section>
+        <!-- Extra Part 2 -->
+    </main>
+    <!-- main end -->
+
+    <!-- footer start -->
+    <footer>
+        <section style="background-color: #0B0D17;" class="container-fluid d-flex flex-column flex-md-row justify-content-around align-items-center mt-5 w-100">
+            <div class="order-md-1 order-2">
+                <small style="font-size: 14px;" class="text-white">© 2022 salekinnabil. All rights reserved</small>
+                <div class="social-media mt-3">
+                    <a href="https://www.instagram.com/sah75fc/?hl=en" class="icon"><i class="ms-4 fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/salekinnabil007" class="icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/shirajus-salekin-nabil-446b0a211/" class="icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="" class="icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="d-flex flex-column order-1 order-md-2">
+                <small style="font-size: 18px;" class="text-white text-center pt-4 pb-2">Get the App</small>
+                <a target="_blank" href="https://www.apple.com/apple-music/"><img class="py-2" src="icons/App Store Badge.png" alt=""></a>
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.netflix.mediaclient&hl=en&gl=US"><img class="pt-2 pb-4" src="icons/Layer 2.png" alt=""></a>
+            </div>
+        </section>
+    </footer>
+    <!-- footer end -->
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
