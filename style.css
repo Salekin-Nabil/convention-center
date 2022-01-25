@@ -48,3 +48,11 @@
     transform: scale(2);
     transition: transform 1s ease-in-out;
 }
+
+/* Tabs, Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 768px) {
+    .medium{
+        width: 100%;
+    }
+}
